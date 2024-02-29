@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+  background-color: rgba(210, 209, 211, 0.842);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+} 
+.logo{
+    color: rgb(79, 137, 190);
+    text-decoration:none ;
+    font-size: 22px;
+    font-weight: bolder;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 20px;
+    transition: 1s ease;
+    
+
+
+}
+nav a:hover{
+    transform: scale(1.1);
+    color: blue;
+    font-weight: 900;
+    
+    
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/image/backround/growtika-9WnjxT1NCoY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+section{
+    padding: 100px 150px;
+}
+
+.content h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content h2 span{
+    color: red;
+}
+.content h3{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact-me {
+    display: inline-block;
+    color: white;
+    background-color: #787CB5;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+
+}
+.contact-me:hover{
+     transform: scale(1.1);
+     background-color:  rgb(249, 101,101 );
+}
+.social  i{
+    color: #ffffff;
+    font-size: 30px;
+    padding-right: 25px;
+    transition: 0.5s ease;
+    
+ }
+ .social i:hover{
+    transform: scale(1.3);
+ }
+ .notre-services{
+    text-align: center;
+    background-color: #f1f3f5;
+ }
+.notre-services h2 , .mes-competances h2 ,.adresse h2 ,.mes-competances h2{
+    
+    color: #F06529;
+    font-size: 28px;
+ }
+ .notre-services p ,.portfolio p ,.adresse p ,.mes-competances p{
+    color:black;
+    font-size: 19px;
+    margin-bottom: 30px;
+ }
+.service p ,.lang-frist p ,.lang-secande p,.lang-three p {
+    color: black;
+    font-size: 16px;
+ }
+
+ .services{
+    display: flex;	
+    
+ }
+ .service { 
+   
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 19px;
+    border: 1px solid;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: 1s ease ;
+}
+.service:hover{
+    background-color: #9d0bd6;
+    color: #f5f5f5;
+    box-shadow: -2px -1px 0px 0px rgba(0,0,0,.07);
+    scale: 1.1;
+    
+}
+.icon{
+   
+    color:rgb(140, 140, 170) ;
+    font-size: 45px;
+} 
+.service h3{
+    color: black;
+    font-size: 25px;
+}
+.mes-competances{
+    text-align: center;
+    background-color: #dfdfdf;
+}
+
+.competances{
+   display: flex;
+   
+}  
+.lang-frist ,.lang-secande ,.lang-three{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 25px;
+    margin: 19px;
+    border: 1px solid;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: 1s ease ;
+}
+.lang-frist h3, .lang-secande h3 , .lang-three  h3 {
+    color: black;
+    font-size: 25px;
+}
+
+.lang-frist:hover{
+    background-color: #F06529;
+    transform: scale(1.1);
+}
+.lang-secande:hover{
+    background-color: #2965f1;
+    transform: scale(1.1);
+}
+.lang-three:hover{
+    background-color: #f0db4f;
+    transform: scale(1.1);
+}
+.portfolio{
+    text-align: center;
+    background-color: #ffffff;
+
+}
+.images{
+    display: flex;
+}
+.portfolio h2{
+    color: #F06529;
+}
+
+.image img{
+    width: 100%;
+    padding:25px;
+    margin: 19px;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: 1s ease ;
+    
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+.adresse{
+    text-align: center;
+    background-color: #dfdfdf;
+    
+    
+}
+.adresse-msg{
+    width: 60%;
+    background-color: white;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px  solid rgba(172, 99, 40, 0.918);
+    border-radius: 40px;
+}
+.form-inupt label{
+    text-align: right;
+}
+
+    
+.form-inupt input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+.form-inupt textarea{
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+.envoyer{
+    padding: 5px 25px;
+    margin: 15px 15px;
+    background-color: #787CB5;
+    border-radius: 10px;
+    border: none;
+    transition: 1s ease;
+}
+.envoyer:hover{
+    background-color: rgb(249, 101,101 );
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+footer{
+    background-color: #9d0bd6;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid red;
+}
+footer p{
+    color: #dfdfdf;
+    font-size: 15px;
+    padding-top: 0px;
+    
+}
+.djalab{
+
+    width: 100%;
+    padding: 25px;
+    margin: 19px;
+    border-radius: 40px;
+    cursor:pointer;
+    transition: 1s ease ;
+
+}
+.djalab:hover{
+    transform: scale(1.1);
+}
+.djalab a{
+    display: flex;
+    align-items: center;
+    border: 1px solid #9d0bd6;
+}
+.djalab p{
+    display: flex;
+    align-items: center;
+    border: 1px solid #9d0bd6;
+    margin: 15px;
+    padding: 10px auto;
+}
+
+
+
+
+ 
+
